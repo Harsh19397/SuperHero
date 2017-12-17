@@ -1,0 +1,10 @@
+<h6><a href="#">Home</a> / Categories</h6>
+<br>
+<h4>Category</h4>
+<div (click)="listResult()">
+  <input type="radio" name="selectedCategory" value="{{ data.Categories[0] }}" (click)="checkedCategory=data.Categories[0]"><label for="{{ data.Categories[0] }}" class="adjustLabel">{{ data.Categories[0] }}</label><br><br>
+  <input type="radio" name="selectedCategory" value="{{ data.Categories[1] }}" (click)="checkedCategory=data.Categories[1]"><label for="{{ data.Categories[1] }}" class="adjustLabel">{{ data.Categories[1] }}</label><br><br>
+  <input type="radio" name="selectedCategory" value="{{ data.Categories[2] }}" (click)="checkedCategory=data.Categories[2]"><label for="{{ data.Categories[2] }}" class="adjustLabel">{{ data.Categories[2] }}</label><br><br>
+  <input type="radio" name="selectedCategory" value="{{ data.Categories[3] }}" (click)="checkedCategory=data.Categories[3]"><label for="{{ data.Categories[3] }}" class="adjustLabel">{{ data.Categories[3] }}</label><br><br>
+  <input type="radio" name="selectedCategory" value="{{ data.Categories[4] }}" (click)="checkedCategory=data.Categories[4]"><label for="{{ data.Categories[4] }}" class="adjustLabel">{{ data.Categories[4] }}</label><br><br>
+</div>

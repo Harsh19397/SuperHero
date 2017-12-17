@@ -1,0 +1,9 @@
+.brandStyle{
+    font-weight: bold;
+    position: relative;
+    bottom: 5px;
+}
+.navbarStyle{
+    font-size: 80%;
+    font-weight: bold;
+}

@@ -1,0 +1,26 @@
+.textCenter1{
+    position: relative;
+    left: 55px;
+}
+.textCenter2{
+    position: relative;
+    left: 70px;
+}
+img{
+    position: relative;
+    left: 40px;
+}
+a{
+    color: black;
+}
+a:hover{
+    text-decoration-line: none;
+}
+.border:hover{
+    border: 1px solid lightgray;
+}
+.container{
+    padding-top: 30px;
+    border-top: 1px solid lightgray;
+    width:105%;
+}

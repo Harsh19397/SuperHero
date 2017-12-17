@@ -1,0 +1,9 @@
+p{
+    float: right;
+    position: relative;
+    top: -3px;
+}
+.sortingArea{
+    padding-bottom: 40px;
+    padding-top: 50px;
+}
